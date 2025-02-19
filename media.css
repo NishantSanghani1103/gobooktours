@@ -1,0 +1,402 @@
+@media only screen and (min-width:200px) and (max-width:575px) {
+    .banner-mid {
+        flex-direction: column;
+        gap: 20px;
+    }
+    /* header {
+        display: none;
+    } */
+    .header-menu {
+        position: fixed;
+        top: 0px;
+        left: -100%;
+        background-color: white;
+        width: 80%;
+        height: 100vh;
+        z-index: 999;
+        transition: 1s;
+    }
+    .showMenu {
+        left: 0%;
+    }
+    .header-menu>ul {
+        padding: 20px;
+        flex-direction: column;
+    }
+    .search-toure {
+        display: none;
+    }
+    .header-navigation-menu {
+        opacity: 1;
+    }
+    .header-mid {
+        justify-content: space-between;
+    }
+    .header-logo {
+        flex-basis: 50%;
+    }
+    .header-logo>figure>img {
+        width: 100%;
+    }
+    .header-navigation-menu {
+        flex-basis: 14%;
+    }
+    .header-navigation-menu>i {
+        font-size: 25px;
+    }
+    .banner-mid-search-culture {
+        flex-basis: 290px;
+    }
+    .banner-mid-right {
+        flex-basis: auto;
+    }
+    .banner-mid-items-content p {
+        font-size: 14px;
+    }
+    .tranding-holiday-mid-heading {
+        margin: 0px 20px;
+    }
+    .tranding-holiday-mid-heading>h2 {
+        font-size: 28px;
+        text-align: left;
+    }
+    .tranding-holiday-mid-items {
+        flex-direction: column;
+    }
+    .tranding-holiday-mid-rajshthan-items>figure>img {
+        width: 306px;
+        height: 400px;
+    }
+    .overlap-rajshthan {
+        width: 100%;
+        height: 400px;
+        position: absolute;
+    }
+    .tranding-holiday-mid-rajshthan-items {
+        margin: 0px 10px;
+    }
+    .tranding-mid-right-items {
+        margin: 0px 10px;
+    }
+    .international-holiday-heading {
+        margin: 20px;
+    }
+    .international-holiday-heading>h2 {
+        font-size: 28px;
+    }
+    .international-holiday-mid {
+        flex-direction: column;
+    }
+    .international-holiday-mid-items {
+        margin: 0px 12px;
+    }
+    .travel-themes-mid {
+        flex-direction: column;
+    }
+    .travel-themes-heading {
+        margin: 20px 10px;
+    }
+    .travel-theme-mid-items {
+        margin: 0px 16px;
+    }
+    .travel-themes-heading>h2 {
+        font-size: 28px;
+    }
+    .top-picks-mid {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .top-picks-mid-items {
+        margin: 0px 10px;
+    }
+    .top-picks-heading {
+        margin: 20px;
+    }
+    .top-picks-heading>h2 {
+        font-size: 28px;
+    }
+    .best-seller-mid {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .best-seller-mid-items {
+        margin: 0px 10px;
+    }
+    .best-seller-direction {
+        display: none;
+    }
+    .best-seller-direction-right {
+        display: none;
+    }
+    .best-seller-overlay-content {
+        top: 55%;
+    }
+    .blod-mid {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .blod-mid-items {
+        margin: 0px 10px;
+    }
+    .blog-heading {
+        margin: 20px;
+    }
+    .blog-mid-items-content>a {
+        font-size: 21px;
+    }
+    .faq-heading {
+        margin: 20px;
+    }
+    .faq-heading>h4 {
+        font-size: 18px;
+    }
+    .faq-mid-items {
+        flex-basis: 90%;
+        margin: 10px;
+    }
+    .faq-mid-items-main-heading>h4 {
+        font-size: 11px;
+        color: white;
+        padding: 10px 12px;
+    }
+    .faq-mid-items-main-heading>h4>i {
+        font-size: 15px;
+    }
+    .faq-mid-items>h4 {
+        font-size: 12px;
+        padding: 16px 20px;
+    }
+    .faq-mid-items {
+        flex-basis: 90%;
+        margin: 10px auto;
+        border: 1px solid #ccc;
+    }
+    .faq-mid-items-main-heading>p {
+        font-size: 13px;
+        padding: 16px 20px;
+        color: #212529;
+        letter-spacing: .08em;
+    }
+    .faq-mid-items-main-heading>h4>i {
+        right: 0px;
+    }
+    .subscribe-mid>input {
+        padding: 5px 5px;
+    }
+    .subscribe-mid>input::placeholder {
+        font-size: 12px;
+    }
+    .footer-mid {
+        flex-direction: column;
+    }
+    .footer-mid-items {
+        margin: 0px 20px;
+    }
+    .footer-review>figure>img {
+        width: 27px;
+        height: 6px;
+    }
+    .we-accept-items {
+        margin: 10px 10px;
+        flex-basis: 97%;
+        gap: 10px;
+        justify-content: flex-start;
+    }
+    .package-mid-filters {
+        display: none;
+    }
+    .package-mid-india-tour {
+        flex-basis: 100%;
+        /* border: 1px solid blue; */
+    }
+    .package-mid-india-tour-items {
+        flex-direction: column;
+    }
+    .package-mid-india-tour-items-content-heading>h3>a {
+        padding: 120px 0px;
+        font-size: 18px;
+    }
+    .package-mid-india-tour-items-content-details>P {
+        font-size: 13px;
+    }
+    .package-mid-india-tour-items-content-details>button {
+        padding: 5px 10px;
+    }
+    .package-mid-india-toure-heding {
+        margin: 10px;
+    }
+    .package-mid-india-tour-items-content {
+        margin: 10px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:992px) {
+    /* .header-menu {
+        display: none;
+    } */
+    .header-menu {
+        position: fixed;
+        top: 0px;
+        left: -100%;
+        background-color: white;
+        width: 80%;
+        height: 100vh;
+        z-index: 999;
+        transition: 1s;
+    }
+    .showMenu {
+        left: 0%;
+    }
+    .header-menu>ul {
+        padding: 20px;
+        flex-direction: column;
+    }
+    .search-toure {
+        display: none;
+    }
+    .header-navigation-menu {
+        opacity: 1;
+    }
+    .header-mid {
+        justify-content: space-between;
+    }
+    .header-logo {
+        flex-basis: 30%;
+    }
+    .header-logo>figure>img {
+        width: 100%;
+        height: 36px;
+    }
+    .header-navigation-menu {
+        flex-basis: 10%;
+    }
+    .header-navigation-menu>i {
+        font-size: 25px;
+    }
+    .banner-mid-search-culture {
+        height: 320px;
+    }
+    .banner-mid-right {
+        height: 400px;
+    }
+    .banner-mid-items {
+        flex-basis: 48%;
+    }
+    .tranding-holiday-mid-heading {
+        margin: 10px auto;
+        text-align: center;
+    }
+    .tranding-holiday-mid-heading>h2 {
+        font-size: 28px;
+    }
+    .tranding-holiday-mid-items {
+        margin: 10px 20px;
+    }
+    .tranding-holiday-mid-rajshthan-items {
+        flex-basis: 180px;
+    }
+    .tranding-holiday-mid-rajshthan-items>figure>img {
+        width: 180px;
+        height: 400px;
+        border-radius: 15px;
+    }
+    .overlap-rajshthan {
+        height: 400px;
+    }
+    .tranding-mid-right-items {
+        flex-basis: 14%;
+    }
+    .tranding-mid-right-items>figure>img {
+        width: 156px;
+        height: 200px;
+    }
+    .tranding-mid-right-items-overlap {
+        width: 100%;
+        height: 200px;
+    }
+    .tranding-mid-right-items-overlap-content h4 {
+        text-transform: capitalize;
+        color: white;
+        font-size: 18px;
+        padding: 6px 0px;
+    }
+    .international-holiday-mid {
+        margin: 0px 10px;
+        gap: 10px;
+    }
+    .international-holiday-mid-items {
+        flex-basis: 49%;
+    }
+    .travel-themes-mid {
+        margin: 0px 10px;
+    }
+    .travel-themes-heading {
+        margin: 20px 10px;
+    }
+    .travel-themes-heading>h2 {
+        font-size: 28px;
+    }
+    .top-picks-heading {
+        margin: 20px;
+    }
+    .top-picks-mid {
+        gap: 20px;
+    }
+    .top-picks-mid-items {
+        margin: 0px 10px;
+        flex-basis: 46%;
+    }
+    .best-seller-direction {
+        display: none;
+    }
+    .best-seller-direction-right {
+        display: none;
+    }
+    .best-seller-overlay-content {
+        top: 56%;
+    }
+    .blog-mmid-items {
+        flex-basis: 30%;
+    }
+    .faq-heading {
+        margin: 20px 10px;
+    }
+    .faq-mid-items {
+        margin: 10px;
+    }
+    .footer-mid {
+        gap: 20px;
+        justify-content: center
+    }
+    .footer-mid-items {
+        flex-basis: 22%;
+    }
+    .package-mid-filters {
+        display: none;
+    }
+    .package-mid-india-toure-heding {
+        margin: 10px;
+        /* border: 1px solid black; */
+    }
+    .package-mid-india-tour {
+        flex-basis: 100%;
+    }
+    .package-mid-india-tour-items-content-details>button {
+        padding: 5px 10px;
+    }
+    .package-mid-india-tour-items-content-details>P {
+        font-size: 12px;
+    }
+    .package-mid-india-tour-items-content {
+        flex-basis: 30%;
+        margin: 10px;
+    }
+    .we-accept {
+        flex-direction: column;
+        margin: 0px;
+    }
+    .we-accept-items {
+        flex-basis: 6%;
+        margin: 10px 0px;
+    }
+}
